@@ -1,5 +1,6 @@
-#SCRAPING ACCOUNTS (USER NAME, FULL NAME & PROFILE PICT) THAT LIKED ON AN INSTGRAM POST
+#SCRAPING ACCOUNT (USER NAME, FULL NAME & PROFILE PICT) THAT LIKED ON AN INSTGRAM POST
 #SCRAPING AKUN (USER NAME, FULL NAME & PROFILE PICT) YANG MENYUKAI DI POSTINGAN INSTGRAM
+# running on os windows 10
 
 import requests, json
 
@@ -7,7 +8,7 @@ url ='https://www.instagram.com/graphql/query'
 
 short_code = input(' Please input a short code: ')
 
-varibles = {"shortcode":short_code,"first":50}
+varibles = {"shortcode":short_code,"first":500000}
 
 headers = {'cookie' : 'sessionid=35446217166%3AOQUzieUlH1aSvO%3A14'}
 
