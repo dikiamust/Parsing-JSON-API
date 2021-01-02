@@ -2,7 +2,7 @@ import requests, json
 
 url ='https://www.instagram.com/graphql/query'
 
-short_code = "BlfeTaphEjO"
+short_code = input(' Please input a short code: ')
 
 varibles = {"shortcode":short_code,"first":50}
 
